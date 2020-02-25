@@ -1,0 +1,51 @@
+.globalNav {
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    right: 0;
+    z-index: 500;
+    height: 50px;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+}
+
+.globalNav>.container-lg {
+    padding: 0;
+}
+
+.globalNav .navRoot {
+    position: relative;
+}
+
+.globalNav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.globalNav li {
+    list-style: none;
+}
+
+.container, .container-lg {
+    max-width: 1040px;
+}
+.container-lg {
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    width: 100%;
+}
+
+.globalNav .navSection.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.globalNav .navSection.primary {
+    -webkit-box-pack: center;
+    /* -ms-flex-pack: center; */
+    justify-content: center;
+}
